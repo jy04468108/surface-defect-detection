@@ -1,15 +1,15 @@
 {
     "model" : {
         "backend":              "Full Yolo",
-        "input_size":           416,
-        "anchors":              [0.57273, 0.677385, 1.87446, 2.06253, 3.33843, 5.47434, 7.88282, 3.52778, 9.77052, 9.16828],
+        "input_size":           200,
+        "anchors":              [0.89,5.06, 1.06,1.57, 2.19,3.81, 4.15,1.75, 4.81,5.27],
         "max_box_per_image":    10,        
         "labels":               ["rolled-in_scale", "patches", "crazing", "pitted_surface","inclusion","scratches"]
     },
 
     "train": {
         "train_image_folder":   "images/",
-        "train_annot_folder":   "images/annotations",     
+        "train_annot_folder":   "images/annotations/",     
           
         "train_times":          8,
         "pretrained_weights":   "",
