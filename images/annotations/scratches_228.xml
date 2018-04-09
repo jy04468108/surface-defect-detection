@@ -35,7 +35,7 @@
 		</bndbox>
 	</object>
 	<object>
-		<name>paches</name>
+		<name>patches</name>
 		<pose>Unspecified</pose>
 		<truncated>1</truncated>
 		<difficult>0</difficult>
